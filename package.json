@@ -4,7 +4,9 @@
   "description": "a demo by webpack+react+nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node bin/app.js",
+    "build": "webpack --mode production",
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/yuyuanlin1991/reactDemo/issues"
   },
-  "homepage": "https://github.com/yuyuanlin1991/reactDemo#readme"
+  "homepage": "https://github.com/yuyuanlin1991/reactDemo#readme",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack-cli": "^2.1.2"
+  }
 }
