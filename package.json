@@ -1,0 +1,19 @@
+{
+  "name": "reactdemo",
+  "version": "1.0.0",
+  "description": "a demo by webpack+react+nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyuanlin1991/reactDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuyuanlin1991/reactDemo/issues"
+  },
+  "homepage": "https://github.com/yuyuanlin1991/reactDemo#readme"
+}
