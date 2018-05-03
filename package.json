@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "node bin/app.js",
-    "build": "webpack --mode production -color",
+    "build": "webpack --p --d --color --progress --display-chunks --watch",
     "start": "webpack"
   },
   "repository": {
@@ -19,8 +19,14 @@
   },
   "homepage": "https://github.com/yuyuanlin1991/reactDemo#readme",
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "ejs": "^2.5.9",
     "express": "^4.16.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "webpack": "^4.6.0"
   },
   "devDependencies": {

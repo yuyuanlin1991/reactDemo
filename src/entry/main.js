@@ -1,3 +1,5 @@
 
-console.log('hello world');
-document.getElementById("root").appendChild("<h4>this is the first page !</h4>")
+import React from 'react';
+import ReactDOM from 'react-dom';
+console.log("hahah");
+ReactDOM.render( <h1>hello world</h1>, document.getElementById('root'));

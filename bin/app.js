@@ -11,7 +11,8 @@ app.set('views',path.join(__dirname,'views'));
 //作用：设置html模板的路径为views，下面代码在使用引擎返回页面时，只需写相对views的路径即可
 //设置对应模板引擎
 app.set('views engine','html');
-
+//托管静态资源
+app.use(express.static(path.join(__dirname,'views')));
 
 //get方式提交时，渲染页面
 app.get('/',function(req,res){
